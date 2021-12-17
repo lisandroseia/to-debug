@@ -212,7 +212,7 @@ submit.addEventListener('click', (e) => {
 
 /* data storage */
 
-const emailField = document.querySelector('#email');
+const emailField = document.querySelector('.email');
 const nameField = document.querySelector('#name');
 const textField = document.querySelector('#text');
 const storeds = document.querySelectorAll('.stored');
