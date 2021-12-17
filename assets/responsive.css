@@ -1,0 +1,749 @@
+/* resposive
+media-querys table
+ */
+
+/* big screens */
+
+@media (min-width: 1200px) {
+  header {
+    padding-top: 20px;
+    width: 63%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  #logo {
+    font-size: 20px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 20px;
+  }
+
+  #titles,
+  #contact {
+    width: 63%;
+  }
+
+  #present {
+    background: url(./imgs/background.jpg) no-repeat center center;
+  }
+
+  .works-container {
+    width: 63%;
+  }
+
+  .image {
+    width: 50%;
+    height: 100%;
+  }
+
+  .work-info {
+    width: 45%;
+    height: 95%;
+    padding-top: 15px;
+  }
+
+  .second {
+    flex-direction: row-reverse;
+  }
+
+  .wraper {
+    padding: 10px;
+    height: 120%;
+  }
+
+  .work-info > h2 {
+    margin-top: 10px;
+    font-size: 40px;
+  }
+
+  .description-wraper > h3 {
+    font-size: 18px;
+  }
+
+  .description-wraper > p {
+    font-size: 18px;
+  }
+
+  .work-text {
+    font-size: 16px;
+  }
+
+  .project-btn {
+    font-size: 17px;
+  }
+
+  .framework {
+    font-size: 12px;
+  }
+
+  .work-child {
+    margin-bottom: 20px;
+  }
+
+  /* about me section */
+
+  #container2 {
+    height: 100vh;
+  }
+
+  #about-me {
+    padding: 10%;
+  }
+
+  #aboutme-desc {
+    width: 70%;
+    height: 120vh;
+  }
+
+  #ab-me-technical {
+    width: 100%;
+  }
+
+  #lang-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #lang-list > li {
+    max-width: 122px;
+    height: 120px;
+  }
+
+  /* contact form */
+
+  #container3 {
+    background: url(./imgs/desk-back-img.png) no-repeat center center;
+    background-size: 90% 90%;
+  }
+
+  #container4 {
+    width: 40%;
+  }
+
+  fieldset > input,
+  textarea {
+    width: 447px;
+  }
+
+  .modal-container[data-visible='true'] {
+    inset: 1% 10% 1% 10%;
+    padding: 0.5%;
+  }
+
+  .popupDescription {
+    width: 60%;
+  }
+
+  .popup-head {
+    font-size: 40px;
+  }
+}
+
+/* horizontal tablets and average desktop */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  header {
+    padding-top: 20px;
+    width: 63%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  #logo {
+    font-size: 20px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 20px;
+  }
+
+  #titles,
+  #contact {
+    width: 63%;
+  }
+
+  #present {
+    background: url(./imgs/background.jpg) no-repeat center center;
+  }
+
+  .works-container {
+    width: 63%;
+  }
+
+  .image {
+    width: 50%;
+    height: 100%;
+  }
+
+  .work-info {
+    width: 45%;
+    height: 95%;
+    padding-top: 15px;
+  }
+
+  .second {
+    flex-direction: row-reverse;
+  }
+
+  .wraper {
+    padding: 10px;
+    height: 120%;
+  }
+
+  .work-info > h2 {
+    margin-top: 10px;
+    font-size: 40px;
+  }
+
+  .description-wraper > h3 {
+    font-size: 18px;
+  }
+
+  .description-wraper > p {
+    font-size: 18px;
+  }
+
+  .work-text {
+    font-size: 16px;
+  }
+
+  .project-btn {
+    font-size: 17px;
+  }
+
+  .framework {
+    font-size: 12px;
+  }
+
+  .work-child {
+    margin-bottom: 20px;
+  }
+
+  /* about me section */
+
+  #container2 {
+    height: 100vh;
+  }
+
+  #about-me {
+    padding: 10%;
+  }
+
+  #aboutme-desc {
+    width: 70%;
+    height: 120vh;
+  }
+
+  #ab-me-technical {
+    width: 100%;
+  }
+
+  #lang-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #lang-list > li {
+    max-width: 122px;
+    height: 120px;
+  }
+
+  /* contact form */
+
+  #container3 {
+    background: url(./imgs/desk-back-img.png) no-repeat center center;
+    background-size: 90% 90%;
+  }
+
+  #container4 {
+    width: 40%;
+  }
+
+  fieldset > input,
+  textarea {
+    width: 447px;
+  }
+
+  .modal-container[data-visible='true'] {
+    inset: 1% 10% 1% 10%;
+    padding: 0.5%;
+  }
+
+  .popupDescription {
+    width: 60%;
+  }
+
+  .popup-head {
+    font-size: 40px;
+  }
+}
+
+/* horizontal moviles */
+
+@media (max-width: 767px) {
+  /* navigation bar */
+
+  header {
+    padding-top: 35px;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    justify-self: flex-end;
+    position: fixed;
+    inset: 0 0 0 0;
+    background: rgba(4, 19, 156, 0.7);
+    backdrop-filter: blur(8px);
+    gap: 32px;
+    align-items: center;
+    padding-top: 150px;
+    transform: translateX(100%);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+  }
+
+  .nav-ul[data-visible='true'] {
+    transform: translateX(0%);
+  }
+
+  .nav-ul > li {
+    align-self: flex-start;
+    padding-left: 15px;
+  }
+
+  .hamburger-btn {
+    display: block;
+    background: url(./imgs/Enabled.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+    border: #fff;
+    z-index: 9999;
+  }
+
+  .nav-li > a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+  .hamburger-btn[aria-expanded='true'] {
+    background: url(./imgs/Close.svg);
+  }
+
+  /* presentation section */
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #logo {
+    font-size: 18px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 16px;
+  }
+
+  #titles,
+  #contact {
+    width: 80%;
+  }
+
+  #present {
+    background: url(./imgs/mobilebg.jpg) no-repeat center center;
+  }
+
+  /* second project */
+
+  /* works section */
+  .works-container {
+    width: 95%;
+  }
+
+  .wraper {
+    flex-direction: column;
+    padding: 25px 10px;
+    height: 100vh;
+  }
+
+  .image {
+    height: 50%;
+    width: 100%;
+  }
+
+  .bigger {
+    height: 110vh;
+  }
+
+  .work-info {
+    width: 100%;
+    padding-top: 5px;
+    height: 50%;
+  }
+
+  .work-info > h2 {
+    font-size: 32px;
+  }
+
+  .description-wraper > h3 {
+    font-size: 13px;
+  }
+
+  .description-wraper > p {
+    font-size: 13px;
+  }
+
+  .work-text {
+    font-size: 15px;
+  }
+
+  .project-btn {
+    font-size: 17px;
+  }
+
+  .framework {
+    font-size: 12px;
+  }
+
+  .work-child {
+    margin-bottom: 20px;
+  }
+
+  /* about me section */
+
+  #container2 {
+    height: 100vh;
+  }
+
+  #about-me {
+    flex-direction: column;
+    padding: 3%;
+  }
+
+  #aboutme-desc {
+    width: 100%;
+    height: 50%;
+    padding: 0 20px 0 21px;
+    text-align: start;
+  }
+
+  #ab-me-technical {
+    width: 100%;
+    height: 50%;
+  }
+
+  #lang-list {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  /* about me lettering */
+
+  #lang-list > p {
+    font-size: 15px;
+  }
+
+  #lang-list > li {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  #lang-list > li > img {
+    margin-right: 10px;
+  }
+
+  /* contact me section */
+
+  #container3 {
+    background: url(./imgs/back-img.png) no-repeat top right;
+    background-size: 60% 87%;
+  }
+
+  #container4 {
+    width: 90%;
+  }
+
+  fieldset > input,
+  textarea {
+    width: 330px;
+    border-radius: 8px;
+  }
+
+  fieldset > button {
+    align-self: flex-start;
+  }
+
+  .popupEnd {
+    flex-direction: column;
+  }
+
+  .modal-container[data-visible='true'] {
+    inset: 1% 2% 1% 2%;
+    padding: 2%;
+  }
+
+  .popupDescription {
+    width: 100%;
+  }
+
+  .popup-head {
+    font-size: 28px;
+  }
+}
+
+/* average moviles */
+
+@media (max-width: 480px) {
+  /* navigation bar */
+
+  header {
+    padding-top: 35px;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    justify-self: flex-end;
+    position: fixed;
+    inset: 0 0 0 0;
+    background: rgba(4, 19, 156, 0.7);
+    backdrop-filter: blur(8px);
+    gap: 32px;
+    align-items: center;
+    padding-top: 150px;
+    transform: translateX(100%);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+  }
+
+  .nav-ul[data-visible='true'] {
+    transform: translateX(0%);
+  }
+
+  .nav-ul > li {
+    align-self: flex-start;
+    padding-left: 15px;
+  }
+
+  .hamburger-btn {
+    display: block;
+    background: url(./imgs/Enabled.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+    border: #fff;
+    z-index: 9999;
+  }
+
+  .nav-li > a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+  .hamburger-btn[aria-expanded='true'] {
+    background: url(./imgs/Close.svg);
+  }
+
+  /* presentation section */
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #logo {
+    font-size: 18px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 16px;
+  }
+
+  #titles,
+  #contact {
+    width: 80%;
+  }
+
+  #present {
+    background: url(./imgs/mobilebg.jpg) no-repeat center center;
+  }
+
+  /* second project */
+
+  /* works section */
+  .works-container {
+    width: 95%;
+  }
+
+  .wraper {
+    flex-direction: column;
+    padding: 25px 10px;
+    height: 100vh;
+  }
+
+  .image {
+    height: 50%;
+    width: 100%;
+  }
+
+  .bigger {
+    height: 110vh;
+  }
+
+  .work-info {
+    width: 100%;
+    padding-top: 5px;
+    height: 50%;
+  }
+
+  .work-info > h2 {
+    font-size: 32px;
+  }
+
+  .description-wraper > h3 {
+    font-size: 13px;
+  }
+
+  .description-wraper > p {
+    font-size: 13px;
+  }
+
+  .work-text {
+    font-size: 15px;
+  }
+
+  .project-btn {
+    font-size: 17px;
+  }
+
+  .framework {
+    font-size: 12px;
+  }
+
+  .work-child {
+    margin-bottom: 20px;
+  }
+
+  /* about me section */
+
+  #container2 {
+    height: 100vh;
+  }
+
+  #about-me {
+    flex-direction: column;
+    padding: 3%;
+  }
+
+  #aboutme-desc {
+    width: 100%;
+    height: 50%;
+    padding: 0 20px 0 21px;
+    text-align: start;
+  }
+
+  #ab-me-technical {
+    width: 100%;
+    height: 50%;
+  }
+
+  #lang-list {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  /* about me lettering */
+
+  #lang-list > p {
+    font-size: 15px;
+  }
+
+  #lang-list > li {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  #lang-list > li > img {
+    margin-right: 10px;
+  }
+
+  /* contact me section */
+
+  #container3 {
+    background: url(./imgs/back-img.png) no-repeat top right;
+    background-size: 60% 87%;
+  }
+
+  #container4 {
+    width: 90%;
+  }
+
+  fieldset > input,
+  textarea {
+    width: 330px;
+    border-radius: 8px;
+  }
+
+  fieldset > button {
+    align-self: flex-start;
+  }
+
+  .popupEnd {
+    flex-direction: column;
+  }
+
+  .modal-container[data-visible='true'] {
+    inset: 1% 2% 1% 2%;
+    padding: 2%;
+  }
+
+  .popupDescription {
+    width: 100%;
+  }
+
+  .popup-head {
+    font-size: 28px;
+  }
+}
